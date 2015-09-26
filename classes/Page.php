@@ -30,6 +30,10 @@ SQL;
         }
     }    
     
+    public function getContactForm(){
+        
+        return file_get_contents('./views/contact_form.html');
+    }
     
 }
 
